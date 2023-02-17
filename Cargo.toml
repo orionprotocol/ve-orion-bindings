@@ -1,0 +1,14 @@
+[package]
+name = "ve-orn-bindings"
+version = "0.0.1"
+edition = "2021"
+
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/ve-orn-bindings"
+repository = "https://github.com/orionprotocol/ve-orn-bindings" 
+homepage = "https://docs.rs/ve-orn-bindings"
+description = "Orion Protocol Governance 2.0 bindings for veORN"
+
+[dependencies]
+ethers = { version = "1.0.2", default-features = false, features = ["abigen"] }
+lazy_static = "1.4.0"
